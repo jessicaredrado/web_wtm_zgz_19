@@ -22,9 +22,7 @@
   <!-- Lista de distribucion -->
   {% include list_distribution.html %}  
   <!-- Cuenta atras -->
-  {% comment %}
   {% include countdown.html %}
-  {% endcomment %}
   <!-- Codigo de conducta -->
   {% include code_of_conduct.html %}
   <!-- Informacion sobre WTMs -->
@@ -34,11 +32,12 @@
   {% include agenda.html %}
   {% endcomment %}
   <!-- Unete a nuestras ponentes -->
-  {% include join_speakers.html %}
-  <!-- Lista de ponentes -->
   {% comment %}
-  {% include list_speakers.html %}
+  {% include join_speakers.html %}
   {% endcomment %}
+  {% include list_speakers_soon.html %}
+  <!-- Lista de ponentes -->
+  {% include list_speakers.html %}
   <!-- Mulleres Tech -->
   {% include mulleres_tech.html %}
   <!-- Objetivos -->
@@ -48,9 +47,7 @@
   <!-- Unete a nuestros patrocinadores -->
   {% include join_sponsors.html %}
   <!-- Lista de patrocinadores -->
-  {% comment %}
   {% include list_sponsors.html %}
-  {% endcomment %}
   <!-- Camisetas -->
   {% include t-shirts.html %} 
   <!-- Pie -->
