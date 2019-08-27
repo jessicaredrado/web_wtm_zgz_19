@@ -1032,6 +1032,7 @@ section {
     top: 20px;
     left: 20px;
     max-width: 150px;
+    display: none;
 }
 
 .esquina_superior_derecha {
@@ -1039,6 +1040,7 @@ section {
     top: 20px;
     right: 20px;
     max-width: 150px;
+    display: none;
 }
 
 .esquina_inferior_izquierda {
@@ -1046,6 +1048,7 @@ section {
     bottom: 20px;
     left: 20px;
     max-width: 150px;
+    display: none;
 }
 
 .esquina_inferior_derecha {
@@ -1053,4 +1056,5 @@ section {
     bottom: 20px;
     right: 20px;
     max-width: 150px;
+    display: none;
 }
