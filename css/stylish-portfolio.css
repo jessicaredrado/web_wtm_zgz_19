@@ -176,6 +176,18 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+/* Tickets */
+
+.tickets.bg-grey {
+    background: #36474f;
+}
+
+/* Contenidos */
+
+.content-section-a .section-heading-spacer,
+.content-section-a .clearfix{
+    display:none;
+}
 
 /* About */
 
@@ -548,6 +560,12 @@ footer {
 .introduction-item {
     margin-bottom: 30px;
 }
+
+.introduction-item h4 strong {
+    font-size: 20px;
+    font-weight: 100;
+}
+
 .bg-etopia {
     background-image: url(../img/donde/etopia.png);
     background-color: #FFFFFF;
@@ -696,9 +714,7 @@ footer {
 
 .btn-primary {
     background: #6556c2;
-    border-color: #6556c2;
-    /*background: #4285f4;
-    border-color: #4285f4;*/
+    border-color: transparent!important;
     color: #fff;
     text-transform: uppercase;
     margin-top: 20px;
