@@ -188,6 +188,19 @@ hr.small {
 .content-section-a .clearfix{
     display:none;
 }
+.content-section-a strong {
+    font-weight: 100;
+    letter-spacing: 0;
+    font-size: 20px;
+    color: #2a225c;
+}
+
+.content-section-b strong {
+    font-weight: 100;
+    letter-spacing: 0;
+    font-size: 20px;
+    color: #00b0b4;
+}
 
 /* About */
 
