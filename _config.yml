@@ -23,7 +23,7 @@ telephone:
 copyright:
 
 # Tickets
-sold_out_tickets: true
+sold_out_tickets: false
 
 # Timezone
 timezone: Europe/Madrid
