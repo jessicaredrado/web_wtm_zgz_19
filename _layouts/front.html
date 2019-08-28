@@ -11,12 +11,10 @@
   {% include header.html %}
   <!-- Detalles -->
   {% include details.html %}  
+  <!-- Entradas -->
+  {% include tickets.html %}
   <!-- Album de fotos y video resumen -->
   {% include flickr_album_and_videos.html %}  
-  <!-- Entradas -->
-  {% comment %}
-  {% include tickets.html %} 
-  {% endcomment %} 
   <!-- Introduccion -->
   {% include intro.html %} 
   <!-- Lista de distribucion -->
@@ -35,12 +33,11 @@
   {% comment %}
   {% include join_speakers.html %}
   {% endcomment %}
-  <!-- Lista de ponentes publicada proximamente -->
-  {% comment %}
   {% include list_speakers_soon.html %}
-  {% endcomment %}
   <!-- Lista de ponentes -->
+  {% comment %}
   {% include list_speakers.html %}
+  {% endcomment %}
   <!-- Mulleres Tech -->
   {% include mulleres_tech.html %}
   <!-- Objetivos -->
