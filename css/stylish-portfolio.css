@@ -177,9 +177,9 @@ hr.small {
     -o-background-size: cover;
 }
 /* Tickets */
-
 .tickets.bg-grey {
     background: #36474f;
+    color: #ffffff;
 }
 
 /* Contenidos */
