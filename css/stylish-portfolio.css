@@ -187,6 +187,12 @@ hr.small {
 .content-section-a .section-heading-spacer{
     border-top: 8px solid #2a225c;
 }
+
+.content-section-a .clear-130,
+.content-section-b .clear-130{
+    display: none;
+}
+
 .content-section-a strong {
     font-weight: 100;
     letter-spacing: 0;
