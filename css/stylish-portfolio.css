@@ -184,9 +184,8 @@ hr.small {
 
 /* Contenidos */
 
-.content-section-a .section-heading-spacer,
-.content-section-a .clearfix{
-    display:none;
+.content-section-a .section-heading-spacer{
+    border-top: 8px solid #2a225c;
 }
 .content-section-a strong {
     font-weight: 100;
